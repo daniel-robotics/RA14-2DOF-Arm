@@ -1,0 +1,4 @@
+"B:\\Users\\Daniel\\Mindstorms\\Programs - LeJOS NXT\\DrawingArmV2\\src\\DrawingArmV2.java"
+"B:\\Users\\Daniel\\Mindstorms\\Programs - LeJOS NXT\\DrawingArmV2\\src\\FileReader.java"
+"B:\\Users\\Daniel\\Mindstorms\\Programs - LeJOS NXT\\DrawingArmV2\\src\\NXTRegulatedMotorAddon.java"
+"B:\\Users\\Daniel\\Mindstorms\\Programs - LeJOS NXT\\DrawingArmV2\\src\\SynchronizedArm.java"

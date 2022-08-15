@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+	<settings>
+		<label>DrawingArmPC3</label>
+		<root_path>\</root_path>
+		<output_path>classes\</output_path>
+		<source_path>src\</source_path>
+		<jdkprofile_ref>JDK 1.7.0_79    32-bit</jdkprofile_ref>
+		<compiler_ref/>
+		<ant_ref/>
+	</settings>
+	<ant_events/>
+	<run_items>
+		<item run="DrawingArmPC3"/>
+	</run_items>
+	<runtimes>
+		<runtime>
+			<label>&lt;Default&gt;</label>
+			<application_ref>&lt;Default&gt;</application_ref>
+			<applet_ref/>
+			<debugger_ref/>
+			<param/>
+			<run>DrawingArmPC3</run>
+			<verify>true</verify>
+		</runtime>
+	</runtimes>
+	<libraries>
+		<library_ref>LeJOS NXT PC API</library_ref>
+		<library_ref>DanUI</library_ref>
+	</libraries>
+	<files>
+		<include>
+			<folderitem>
+				<path>src</path>
+			</folderitem>
+			<fileitem>
+				<path>src\AngleCalculator.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\Circle.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\DrawingArmPC3.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\FileWorker.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\Line.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\NXTInterface.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\Point.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\Rectangle.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\Shape.java</path>
+				<folder>src</folder>
+			</fileitem>
+		</include>
+	</files>
+	<tasks/>
+</project>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+	<settings>
+		<label>DrawingArmV2</label>
+		<root_path>\</root_path>
+		<output_path>classes\</output_path>
+		<source_path>src\</source_path>
+		<jdkprofile_ref>LeJOS NXT Compiler</jdkprofile_ref>
+		<compiler_ref/>
+		<ant_ref/>
+	</settings>
+	<ant_events/>
+	<run_items>
+		<item run="DrawingArmV2"/>
+	</run_items>
+	<runtimes>
+		<runtime>
+			<label>&lt;Default&gt;</label>
+			<application_ref>LeJOS NXT Downloader</application_ref>
+			<applet_ref/>
+			<debugger_ref/>
+			<param/>
+			<run>DrawingArmV2</run>
+			<verify>true</verify>
+		</runtime>
+	</runtimes>
+	<libraries/>
+	<files>
+		<include>
+			<folderitem>
+				<path>src</path>
+			</folderitem>
+			<fileitem>
+				<path>src\DrawingArmV2.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\FileReader.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\NXTRegulatedMotorAddon.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\SynchronizedArm.java</path>
+				<folder>src</folder>
+			</fileitem>
+		</include>
+		<exclude>
+			<fileitem>
+				<path>src\Instruction.java</path>
+			</fileitem>
+			<fileitem>
+				<path>src\InstructionExecutor.java</path>
+			</fileitem>
+			<fileitem>
+				<path>src\InstructionReader.java</path>
+			</fileitem>
+		</exclude>
+	</files>
+	<tasks/>
+</project>

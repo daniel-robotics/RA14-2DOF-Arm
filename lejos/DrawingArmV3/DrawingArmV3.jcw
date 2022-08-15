@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>DrawingArmV3</label>
+		<id>288</id>
+		<version>0</version>
+	</settings>
+	<users>
+		<user>
+			<path>DrawingArmV3.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>DrawingArmV3.jcp</path>
+		</project>
+	</projects>
+</workspace>

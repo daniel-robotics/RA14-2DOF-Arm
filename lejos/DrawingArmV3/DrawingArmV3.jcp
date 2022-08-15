@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+	<settings>
+		<label>DrawingArmV3</label>
+		<root_path>\</root_path>
+		<output_path>classes\</output_path>
+		<source_path>src\</source_path>
+		<jdkprofile_ref>LeJOS NXT Compiler</jdkprofile_ref>
+		<compiler_ref/>
+		<ant_ref/>
+	</settings>
+	<ant_events/>
+	<run_items>
+		<item run="DrawingArmV3"/>
+	</run_items>
+	<runtimes>
+		<runtime>
+			<label>&lt;Default&gt;</label>
+			<application_ref>LeJOS NXT Downloader</application_ref>
+			<applet_ref/>
+			<debugger_ref/>
+			<param/>
+			<run>DrawingArmV3</run>
+			<verify>true</verify>
+		</runtime>
+	</runtimes>
+	<libraries/>
+	<files>
+		<include>
+			<folderitem>
+				<path>src</path>
+			</folderitem>
+			<fileitem>
+				<path>src\DrawingArmV3.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\File.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\FileReader.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\NXTRegulatedMotorAddon.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\SynchronizedArm.java</path>
+				<folder>src</folder>
+			</fileitem>
+		</include>
+	</files>
+	<tasks>
+		<todotaskitem>
+			<description>TODO Here are some improvements I&apos;m considering:</description>
+			<filepath>src\File.java</filepath>
+			<line>19</line>
+			<timestamp>1496465053</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO: To make this expand automatically when necessary, we could start</description>
+			<filepath>src\File.java</filepath>
+			<line>96</line>
+			<timestamp>1496465053</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO: This isn&apos;t a standard Java API method and should not be public. Should be replaced by Runtime.exec()</description>
+			<filepath>src\File.java</filepath>
+			<line>248</line>
+			<timestamp>1496465053</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO: The following code attempts to reuse String&apos;s. If leJOS gets</description>
+			<filepath>src\File.java</filepath>
+			<line>339</line>
+			<timestamp>1496465053</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO: This isn&apos;t a standard Java API method and should not be public. - BB</description>
+			<filepath>src\File.java</filepath>
+			<line>673</line>
+			<timestamp>1496465053</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO: This isn&apos;t a standard Java API method and should not be public. It is used by  LCP and Sound. - BB</description>
+			<filepath>src\File.java</filepath>
+			<line>698</line>
+			<timestamp>1496465053</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO: This isn&apos;t a standard Java API method and should not be public. Used by LCP. - BB</description>
+			<filepath>src\File.java</filepath>
+			<line>707</line>
+			<timestamp>1496465053</timestamp>
+		</todotaskitem>
+	</tasks>
+</project>

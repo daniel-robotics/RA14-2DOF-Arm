@@ -24,9 +24,6 @@
 *.log
 /log
 
-# Java classes
-*.class
-
 # Python bytecode
 __pycache__/
 *.pyc
@@ -75,17 +72,6 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-# Exclude media formats
-*.jpg
-*.bmp
-*.raw
-*.avi
-*.png
-*.mpg
-*.mov
-*.mp3
-*.wav
-*.mp4
 
 # Catkin build files
 /.catkin_tools/profiles/default/packages
